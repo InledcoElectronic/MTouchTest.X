@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr2.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr1.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_sensor.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr0.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_sensor_scan.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr1.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr0.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/osc.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_sensor.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/pin.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_button.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_button.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/osc.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/main.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mcc_generated_files/mtouch/mtouch_sensor_scan.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mcc_generated_files/mtouch/mtouch.c</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/pin.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/chip_12f1572.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/eusart.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/tmr2.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/mtouch/mtouch_sensor_scan.h</file>
+            <file>file:/E:/MPLABXProjects/PIC12F1572/MTouchTest.X/driver/eusart.c</file>
+        </group>
+    </open-files>
+</project-private>

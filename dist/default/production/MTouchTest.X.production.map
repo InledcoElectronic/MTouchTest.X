@@ -1,0 +1,3581 @@
+Microchip MPLAB XC8 Compiler V1.45 ()
+
+Linker command line:
+
+-W-3 --edf=D:\Program Files\Microchip\xc8\v1.45\dat\en_msgs.txt -cs \
+  -h+dist/default/production\MTouchTest.X.production.sym \
+  --cmf=dist/default/production\MTouchTest.X.production.cmf -z -Q12F1572 \
+  -oC:\Users\liruya\AppData\Local\Temp\se7c.2 \
+  -Mdist/default/production/MTouchTest.X.production.map -E1 -ver=XC8 \
+  -ASTACK=02086h-020efh -pstack=STACK -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
+  -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0120h-016Fh -ABIGRAM=02000h-020EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh -ASFR0=00h-01Fh -ASFR1=080h-09Fh \
+  -ASFR2=0100h-011Fh -ASFR3=0180h-01EFh -ASFR4=0200h-026Fh \
+  -ASFR5=0280h-02EFh -ASFR6=0300h-036Fh -ASFR7=0380h-03EFh \
+  -ASFR8=0400h-046Fh -ASFR9=0480h-04EFh -ASFR10=0500h-056Fh \
+  -ASFR11=0580h-05EFh -ASFR12=0600h-066Fh -ASFR13=0680h-06EFh \
+  -ASFR14=0700h-076Fh -ASFR15=0780h-07EFh -ASFR16=0800h-086Fh \
+  -ASFR17=0880h-08EFh -ASFR18=0900h-096Fh -ASFR19=0980h-09EFh \
+  -ASFR20=0A00h-0A6Fh -ASFR21=0A80h-0AEFh -ASFR22=0B00h-0B6Fh \
+  -ASFR23=0B80h-0BEFh -ASFR24=0C00h-0C6Fh -ASFR25=0C80h-0CEFh \
+  -ASFR26=0D00h-0D6Fh -ASFR27=0D80h-0DEFh -ASFR28=0E00h-0E6Fh \
+  -ASFR29=0E80h-0EEFh -ASFR30=0F00h-0F6Fh -ASFR31=0F80h-0FEFh \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=08007h-08008h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 -DSTRCODE=2 \
+  -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
+  C:\Users\liruya\AppData\Local\Temp\se7c.obj \
+  dist/default/production\MTouchTest.X.production.obj 
+
+Object code version is 3.11
+
+Machine type is 12F1572
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\liruya\AppData\Local\Temp\se7c.obj
+                end_init                             1A       1A        1        8       0
+                reset_vec                             0        0        1        0       0
+                config                             8007     8007        2    1000E       0
+dist/default/production\MTouchTest.X.production.obj
+                cinit                                1B       1B       1E        8       0
+                intentry                              4        4       16        8       0
+                text70                              650      650       15      CA0       0
+                text69                              7B9      7B9        4      F3A       0
+                text68                              532      532       25        8       0
+                text67                              50D      50D       25        8       0
+                text66                              73D      73D        C      CA0       0
+                text65                              709      709        E      CA0       0
+                text64                              7C8      7C8        1      F3A       0
+                swtext2                               1        1        2        2       0
+                swtext1                               3        3        1        2       0
+                text63                              18F      18F       7D        8       0
+                text62                              77F      77F        7      CA0       0
+                text60                              7AC      7AC        5      F3A       0
+                text59                              7A7      7A7        5      F3A       0
+                text58                              7C7      7C7        1      F3A       0
+                text57                              731      731        C      CA0       0
+                text56                              557      557       21        8       0
+                text55                              609      609       1A        8       0
+                text54                              724      724        D      CA0       0
+                text52                              5B6      5B6       1D        8       0
+                text51                              767      767        9      CA0       0
+                text50                              6AF      6AF       12      CA0       0
+                text49                              770      770        8      CA0       0
+                text48                              7B5      7B5        4      F3A       0
+                text47                              7A2      7A2        5      F3A       0
+                text46                              108      108       87        8       0
+                text45                              678      678       13      CA0       0
+                text44                              3F6      3F6       3A        8       0
+                text43                              4C1      4C1       27        8       0
+                text42                              322      322       49        8       0
+                text41                              7C0      7C0        3      F3A       0
+                text40                              7C6      7C6        1      F3A       0
+                text39                              7BD      7BD        3      F3A       0
+                text38                              465      465       30        8       0
+                text37                              36B      36B       46        8       0
+                text36                              20C      20C       7A        8       0
+                text35                              7C5      7C5        1      F3A       0
+                text34                              6FB      6FB        E      CA0       0
+                text33                              430      430       35        8       0
+                text32                              75E      75E        9      CA0       0
+                text31                              6C1      6C1       10      CA0       0
+                text30                              79D      79D        5      F3A       0
+                text26                              286      286       50        8       0
+                text25                              2D6      2D6       4C        8       0
+                text24                              749      749        B      CA0       0
+                text21                              6ED      6ED        E      CA0       0
+                text20                              3B1      3B1       45        8       0
+                text19                              69D      69D       12      CA0       0
+                text17                              598      598       1E        8       0
+                text16                              5D3      5D3       1C        8       0
+                text15                              6DF      6DF        E      CA0       0
+                text14                              665      665       13      CA0       0
+                text13                              4E8      4E8       25        8       0
+                text12                              578      578       20        8       0
+                text11                               39       39       CF        8       0
+                text10                              7C4      7C4        1      F3A       0
+                text9                               495      495       2C        8       0
+                text8                               754      754        A      CA0       0
+                text7                               7C3      7C3        1      F3A       0
+                text6                               778      778        7      CA0       0
+                text5                               68B      68B       12      CA0       0
+                text4                               792      792        6      CA0       0
+                text3                               717      717        D      CA0       0
+                text2                               6D1      6D1        E      CA0       0
+                text1                               7B1      7B1        4      F3A       0
+                maintext                            623      623       17        8       0
+                cstackBANK0                          20       20       1C       20       1
+                cstackCOMMON                         70       70        8       70       1
+                clrtext                             78C      78C        6      CA0       0
+                inittext                            786      786        6      CA0       0
+                bssBANK1                             A0       A0       36       A0       1
+                dataBANK0                            3C       3C       1A       20       1
+                bssBANK0                             56       56        B       20       1
+                bssCOMMON                            78       78        5       70       1
+                stringtext2                         63A      63A       16      C74       0
+                stringtext1                         798      798        5      F30       0
+                idataBANK0                          5EF      5EF       1A        8       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                             1A       1A        1         0
+                cinit                                1B       1B       1E         0
+                intentry                              4        4       16         0
+                reset_vec                             0        0        1         0
+                text70                              650      650       15         0
+                text69                              7B9      7B9        4         0
+                text68                              532      532       25         0
+                text67                              50D      50D       25         0
+                text66                              73D      73D        C         0
+                text65                              709      709        E         0
+                text64                              7C8      7C8        1         0
+                text63                              18F      18F       7D         0
+                text62                              77F      77F        7         0
+                text60                              7AC      7AC        5         0
+                text59                              7A7      7A7        5         0
+                text58                              7C7      7C7        1         0
+                text57                              731      731        C         0
+                text56                              557      557       21         0
+                text55                              609      609       1A         0
+                text54                              724      724        D         0
+                text52                              5B6      5B6       1D         0
+                text51                              767      767        9         0
+                text50                              6AF      6AF       12         0
+                text49                              770      770        8         0
+                text48                              7B5      7B5        4         0
+                text47                              7A2      7A2        5         0
+                text46                              108      108       87         0
+                text45                              678      678       13         0
+                text44                              3F6      3F6       3A         0
+                text43                              4C1      4C1       27         0
+                text42                              322      322       49         0
+                text41                              7C0      7C0        3         0
+                text40                              7C6      7C6        1         0
+                text39                              7BD      7BD        3         0
+                text38                              465      465       30         0
+                text37                              36B      36B       46         0
+                text36                              20C      20C       7A         0
+                text35                              7C5      7C5        1         0
+                text34                              6FB      6FB        E         0
+                text33                              430      430       35         0
+                text32                              75E      75E        9         0
+                text31                              6C1      6C1       10         0
+                text30                              79D      79D        5         0
+                text26                              286      286       50         0
+                text25                              2D6      2D6       4C         0
+                text24                              749      749        B         0
+                text21                              6ED      6ED        E         0
+                text20                              3B1      3B1       45         0
+                text19                              69D      69D       12         0
+                text17                              598      598       1E         0
+                text16                              5D3      5D3       1C         0
+                text15                              6DF      6DF        E         0
+                text14                              665      665       13         0
+                text13                              4E8      4E8       25         0
+                text12                              578      578       20         0
+                text11                               39       39       CF         0
+                text10                              7C4      7C4        1         0
+                text9                               495      495       2C         0
+                text8                               754      754        A         0
+                text7                               7C3      7C3        1         0
+                text6                               778      778        7         0
+                text5                               68B      68B       12         0
+                text4                               792      792        6         0
+                text3                               717      717        D         0
+                text2                               6D1      6D1        E         0
+                text1                               7B1      7B1        4         0
+                maintext                            623      623       17         0
+                clrtext                             78C      78C        6         0
+                inittext                            786      786        6         0
+                idataBANK0                          5EF      5EF       1A         0
+
+        CLASS   STRCODE        
+                stringtext2                         63A      63A       16         0
+                stringtext1                         798      798        5         0
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+                swtext2                               1        1        2         0
+                swtext1                               3        3        1         0
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        8         1
+                bssCOMMON                            78       78        5         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       1C         1
+                dataBANK0                            3C       3C       1A         1
+                bssBANK0                             56       56        B         1
+
+        CLASS   BANK1          
+                bssBANK1                             A0       A0       36         1
+
+        CLASS   BANK2          
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   SFR4           
+
+        CLASS   SFR5           
+
+        CLASS   SFR6           
+
+        CLASS   SFR7           
+
+        CLASS   SFR8           
+
+        CLASS   SFR9           
+
+        CLASS   SFR10          
+
+        CLASS   SFR11          
+
+        CLASS   SFR12          
+
+        CLASS   SFR13          
+
+        CLASS   SFR14          
+
+        CLASS   SFR15          
+
+        CLASS   SFR16          
+
+        CLASS   SFR17          
+
+        CLASS   SFR18          
+
+        CLASS   SFR19          
+
+        CLASS   SFR20          
+
+        CLASS   SFR21          
+
+        CLASS   SFR22          
+
+        CLASS   SFR23          
+
+        CLASS   SFR24          
+
+        CLASS   SFR25          
+
+        CLASS   SFR26          
+
+        CLASS   SFR27          
+
+        CLASS   SFR28          
+
+        CLASS   SFR29          
+
+        CLASS   SFR30          
+
+        CLASS   SFR31          
+
+        CLASS   CONFIG         
+                config                             8007     8007        2         0
+
+        CLASS   IDLOC          
+
+        CLASS   BANK31         
+
+        CLASS   BANK30         
+
+        CLASS   BANK29         
+
+        CLASS   BANK28         
+
+        CLASS   BANK27         
+
+        CLASS   BANK26         
+
+        CLASS   BANK25         
+
+        CLASS   BANK24         
+
+        CLASS   BANK23         
+
+        CLASS   BANK22         
+
+        CLASS   BANK21         
+
+        CLASS   BANK20         
+
+        CLASS   BANK19         
+
+        CLASS   BANK18         
+
+        CLASS   BANK17         
+
+        CLASS   BANK16         
+
+        CLASS   BANK15         
+
+        CLASS   BANK14         
+
+        CLASS   BANK13         
+
+        CLASS   BANK12         
+
+        CLASS   BANK11         
+
+        CLASS   BANK10         
+
+        CLASS   BANK9          
+
+        CLASS   BANK8          
+
+        CLASS   BANK7          
+
+        CLASS   BANK6          
+
+        CLASS   BANK5          
+
+        CLASS   BANK4          
+
+        CLASS   BANK3          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000001  000001         0       0  CODE        2
+                swtext2                        000001  000003  000004         2       0  CONST       2
+                intentry                       000004  000636  00063A         8       0  CODE        2
+                cstackBANK0                    000020  000041  000061        20       1  BANK0       1
+                cstackCOMMON                   000070  00000D  00007D        70       1  COMMON      1
+                bssBANK1                       0000A0  000036  0000D6        A0       1  BANK1       1
+                stringtext2                    00063A  000016  000650       C74       0  STRCODE     2
+                text70                         000650  000148  000798       CA0       0  CODE        2
+                stringtext1                    000798  000005  00079D       F30       0  STRCODE     2
+                text30                         00079D  00002C  0007C9       F3A       0  CODE        2
+                config                         008007  000002  008009     1000E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            00061-0006F               F           1
+        BANK1            000D6-000EF              1A           1
+        BANK2            00120-0016F              50           1
+        BIGRAM           02000-020EF              F0           1
+        CODE             007C9-007FF              37           2
+        COMMON           0007D-0007D               1           1
+        CONST            007C9-007FF              37           2
+        ENTRY            007C9-007FF              37           2
+        IDLOC            08000-08003               4           2
+        RAM              00061-0006F               F           1
+                         000D6-000EF              1A
+                         00120-0016F              50
+        SFR0             00000-0001F              20           1
+        SFR1             00080-0009F              20           1
+        SFR10            00500-0056F              70           1
+        SFR11            00580-005EF              70           1
+        SFR12            00600-0066F              70           1
+        SFR13            00680-006EF              70           1
+        SFR14            00700-0076F              70           1
+        SFR15            00780-007EF              70           1
+        SFR16            00800-0086F              70           1
+        SFR17            00880-008EF              70           1
+        SFR18            00900-0096F              70           1
+        SFR19            00980-009EF              70           1
+        SFR2             00100-0011F              20           1
+        SFR20            00A00-00A6F              70           1
+        SFR21            00A80-00AEF              70           1
+        SFR22            00B00-00B6F              70           1
+        SFR23            00B80-00BEF              70           1
+        SFR24            00C00-00C6F              70           1
+        SFR25            00C80-00CEF              70           1
+        SFR26            00D00-00D6F              70           1
+        SFR27            00D80-00DEF              70           1
+        SFR28            00E00-00E6F              70           1
+        SFR29            00E80-00EEF              70           1
+        SFR3             00180-001EF              70           1
+        SFR30            00F00-00F6F              70           1
+        SFR31            00F80-00FEF              70           1
+        SFR4             00200-0026F              70           1
+        SFR5             00280-002EF              70           1
+        SFR6             00300-0036F              70           1
+        SFR7             00380-003EF              70           1
+        SFR8             00400-0046F              70           1
+        SFR9             00480-004EF              70           1
+        STACK            02086-020EF              6A           1
+        STRCODE          007C9-007FF              37           2
+        STRING           007C9-007FF              37           2
+
+                                  Symbol Table
+
+?_Button_Baseline_Get_helper                          cstackBANK0  00023
+?_MTOUCH_Button_Baseline_Get                          cstackBANK0  0002A
+?_MTOUCH_Button_Reading_Get                           cstackBANK0  00023
+?_MTOUCH_Sensor_RawSample_Get                         cstackBANK0  00023
+?___lwdiv                                             cstackBANK0  00020
+?___lwmod                                             cstackBANK0  00027
+?_abs                                                 cstackBANK0  00020
+?_led_off                                             cstackBANK0  00020
+?_led_on                                              cstackBANK0  00020
+?i1_abs                                               cstackCOMMON 00070
+Button_Baseline_Get_helper@name                       cstackBANK0  00029
+Button_Baseline_Initialize@button                     cstackBANK0  0002B
+Button_Baseline_Update@button                         cstackBANK0  00026
+Button_Deviation_Update@baseline                      cstackBANK0  00024
+Button_Deviation_Update@button                        cstackBANK0  0002C
+Button_Deviation_Update@deviation                     cstackBANK0  00028
+Button_Reading_Update@button                          cstackBANK0  00029
+Button_Service@button                                 cstackBANK0  00033
+Button_Service@name                                   cstackBANK0  00032
+Button_State_Initializing@button                      cstackBANK0  0002C
+Button_State_NotPressed@button                        cstackBANK0  0002C
+Button_State_Pressed@button                           cstackBANK0  0002C
+EUSART_Write@byte                                     cstackBANK0  00020
+MTOUCH_Button_Baseline_Get@name                       cstackBANK0  0002D
+MTOUCH_Button_Initialize@button                       cstackBANK0  00024
+MTOUCH_Button_Initialize@name                         cstackBANK0  00023
+MTOUCH_Button_InitializeAll@button                    cstackBANK0  00026
+MTOUCH_Button_Reading_Get@name                        cstackBANK0  00026
+MTOUCH_Button_ServiceAll@button                       cstackBANK0  00034
+MTOUCH_Button_SetNotPressedCallback@callback          cstackBANK0  00020
+MTOUCH_Button_SetPressedCallback@callback             cstackBANK0  00020
+MTOUCH_Sensor_Enable@sensor                           cstackBANK0  00023
+MTOUCH_Sensor_Initialize@sensor                       cstackBANK0  00024
+MTOUCH_Sensor_InitializeAll@sensor                    cstackBANK0  00025
+MTOUCH_Sensor_RawSample_Get@name                      cstackBANK0  00026
+MTOUCH_Sensor_SampleAll@sensor                        cstackBANK0  0003B
+MTOUCH_Sensor_Sampled_ResetAll@sensor                 cstackBANK0  00022
+MTOUCH_Sensor_SetSampledCallback@callback             cstackBANK0  00020
+MTOUCH_Sensor_wasSampled@sensor                       cstackBANK0  00023
+PL50                                                  text42       0032C
+PL52                                                  text44       00404
+PL54                                                  text44       0041D
+PL56                                                  text11       000D6
+PL58                                                  text36       00271
+PL60                                                  text11       000DF
+PL62                                                  text37       003A6
+PL64                                                  text36       00278
+PL66                                                  text46       00188
+PL68                                                  text11       000E7
+PL70                                                  text63       001FD
+PL72                                                  text11       000EE
+PL74                                                  text19       006A7
+PL76                                                  text36       0027E
+PL78                                                  text11       000F3
+PL80                                                  text25       0031B
+PL82                                                  text56       00572
+PL84                                                  text11       000F9
+PL86                                                  text63       00206
+PL88                                                  text11       000FE
+PL90                                                  text11       00103
+PL92                                                  text33       00460
+Sensor_Acq_ExecutePacket@ADCON0_temp                  cstackBANK0  00023
+Sensor_Acq_ExecutePacket@ADCON1_temp                  cstackBANK0  00024
+Sensor_Acq_ExecutePacket@ADCON2_temp                  cstackBANK0  00025
+Sensor_Acq_ExecutePacket@error                        cstackBANK0  00026
+Sensor_Acq_ExecutePacket@sensor                       cstackBANK0  00027
+Sensor_Acq_ExecuteScan@last_a                         bssBANK0     00058
+Sensor_Acq_ExecuteScan@last_b                         bssBANK0     00056
+Sensor_Acq_ExecuteScan@result                         cstackCOMMON 00076
+Sensor_Acquisition@retry                              cstackBANK0  00036
+Sensor_Acquisition@sensor                             cstackBANK0  00037
+Sensor_RawSample_Update@sensor                        cstackBANK0  00020
+Sensor_Sampled_Reset@sensor                           cstackBANK0  00020
+Sensor_Scanfrequency_Evaluation@best_packet_sample    cstackBANK0  0002C
+Sensor_Scanfrequency_Evaluation@best_sample_period    cstackBANK0  0002F
+Sensor_Scanfrequency_Evaluation@frequency_hop         stringtext1  00798
+Sensor_Scanfrequency_Evaluation@i                     cstackBANK0  00031
+Sensor_Scanfrequency_Evaluation@packet_noise_Max      cstackBANK0  0002A
+Sensor_Scanfrequency_Evaluation@retry                 cstackBANK0  00030
+Sensor_Scanfrequency_Evaluation@sensor                cstackBANK0  0002E
+Sensor_Service@error                                  cstackBANK0  00039
+Sensor_Service@name                                   cstackBANK0  00038
+Sensor_Service@sensor                                 cstackBANK0  0003A
+Sensor_isEnabled@sensor                               cstackBANK0  00020
+Sensor_setActive@sensor                               cstackBANK0  00020
+Sensor_setInactive@sensor                             cstackBANK0  00020
+Sensor_setSampled@sensor                              cstackBANK0  00020
+Sensor_setScanFunction@sensor                         cstackBANK0  00020
+TMR2_SetInterruptHandler@handler                      cstackBANK0  00020
+_ADCON0                                               (abs)        0009D
+_ADCON1                                               (abs)        0009E
+_ADCON2                                               (abs)        0009F
+_ADRES                                                (abs)        0009B
+_ANSELA                                               (abs)        0018C
+_ANSELAbits                                           (abs)        0018C
+_APFCON                                               (abs)        0011D
+_BAUDCON                                              (abs)        0019F
+_Button_Baseline_Get_helper                           text16       005D3
+_Button_Baseline_Initialize                           text43       004C1
+_Button_Baseline_Update                               text42       00322
+_Button_DefaultCallback                               text40       007C6
+_Button_Deviation_Update                              text46       00108
+_Button_Reading_Update                                text44       003F6
+_Button_Service                                       text33       00430
+_Button_StateMachine                                  dataBANK0    0003C
+_Button_State_Initializing                            text37       0036B
+_Button_State_NotPressed                              text36       0020C
+_Button_State_Pressed                                 text38       00465
+_EUSART_Initialize                                    text5        0068B
+_EUSART_ReceiveInterruptHandler_Default               (abs)        00000
+_EUSART_Transmit_ISR                                  text70       00650
+_EUSART_Write                                         text17       00598
+_GIE                                                  (abs)        0005F
+_INTCONbits                                           (abs)        0000B
+_INTERRUPT_Manager                                    intentry     00004
+_LATA                                                 (abs)        0010C
+_LATAbits                                             (abs)        0010C
+_MTOUCH_Button_Baseline_Get                           text15       006DF
+_MTOUCH_Button_Initialize                             text56       00557
+_MTOUCH_Button_InitializeAll                          text55       00609
+_MTOUCH_Button_Reading_Get                            text14       00665
+_MTOUCH_Button_ServiceAll                             text32       0075E
+_MTOUCH_Button_SetNotPressedCallback                  text60       007AC
+_MTOUCH_Button_SetPressedCallback                     text59       007A7
+_MTOUCH_CVD_ScanA_0                                   text68       00532
+_MTOUCH_CVD_ScanB_0                                   text67       0050D
+_MTOUCH_Initialize                                    text48       007B5
+_MTOUCH_Sensor_Calibrate                              text58       007C7
+_MTOUCH_Sensor_Enable                                 text54       00724
+_MTOUCH_Sensor_Initialize                             text52       005B6
+_MTOUCH_Sensor_InitializeAll                          text51       00767
+_MTOUCH_Sensor_NotifyInterruptOccurred                text69       007B9
+_MTOUCH_Sensor_RawSample_Get                          text45       00678
+_MTOUCH_Sensor_SampleAll                              text8        00754
+_MTOUCH_Sensor_Sampled_ResetAll                       text50       006AF
+_MTOUCH_Sensor_Scan_Initialize                        text49       00770
+_MTOUCH_Sensor_SetSampledCallback                     text47       007A2
+_MTOUCH_Sensor_isCalibrated                           text35       007C5
+_MTOUCH_Sensor_wasSampled                             text34       006FB
+_MTOUCH_Service_Mainloop                              text6        00778
+_MTOUCH_Tick                                          text7        007C3
+_OSCCON                                               (abs)        00099
+_OSCSTATbits                                          (abs)        0009A
+_OSC_Initialize                                       text4        00792
+_PIE1bits                                             (abs)        00091
+_PIN_Initialize                                       text3        00717
+_PIR1bits                                             (abs)        00011
+_PR2                                                  (abs)        0001B
+_RCSTA                                                (abs)        0019D
+_SPBRG                                                (abs)        0019B
+_SYSTEM_Initialize                                    text1        007B1
+_Sensor_Acq_ExecutePacket                             text26       00286
+_Sensor_Acq_ExecuteScan                               text63       0018F
+_Sensor_Acquisition                                   text20       003B1
+_Sensor_DefaultCallback                               text10       007C4
+_Sensor_RawSample_Update                              text19       0069D
+_Sensor_Sampled_Reset                                 text53       00000
+_Sensor_Scanfrequency_Evaluation                      text25       002D6
+_Sensor_Service                                       text9        00495
+_Sensor_isEnabled                                     text24       00749
+_Sensor_scanA                                         dataBANK0    00048
+_Sensor_scanB                                         dataBANK0    00046
+_Sensor_setActive                                     text23       00000
+_Sensor_setInactive                                   text22       00000
+_Sensor_setSampled                                    text18       00000
+_Sensor_setScanFunction                               text31       006C1
+_T2CON                                                (abs)        0001C
+_T2CONbits                                            (abs)        0001C
+_TMR2                                                 (abs)        0001A
+_TMR2_ISR                                             text62       0077F
+_TMR2_Initialize                                      text2        006D1
+_TMR2_InterruptHandler_Default                        text64       007C8
+_TMR2_SetInterruptHandler                             text30       0079D
+_TRISA                                                (abs)        0008C
+_TRISAbits                                            (abs)        0008C
+_TXREG                                                (abs)        0019A
+_TXSTA                                                (abs)        0019E
+_WPUA                                                 (abs)        0020C
+_WPUAbits                                             (abs)        0020C
+__CFG_BOREN$ON                                        (abs)        00000
+__CFG_BORV$LO                                         (abs)        00000
+__CFG_CLKOUTEN$OFF                                    (abs)        00000
+__CFG_CP$OFF                                          (abs)        00000
+__CFG_FOSC$INTOSC                                     (abs)        00000
+__CFG_LPBOREN$OFF                                     (abs)        00000
+__CFG_LVP$ON                                          (abs)        00000
+__CFG_MCLRE$ON                                        (abs)        00000
+__CFG_PLLEN$OFF                                       (abs)        00000
+__CFG_PWRTE$ON                                        (abs)        00000
+__CFG_STVREN$ON                                       (abs)        00000
+__CFG_WDTE$ON                                         (abs)        00000
+__CFG_WRT$OFF                                         (abs)        00000
+__Habs1                                               abs1         00000
+__Hbank0                                              bank0        00000
+__Hbank1                                              bank1        00000
+__Hbank10                                             bank10       00000
+__Hbank11                                             bank11       00000
+__Hbank12                                             bank12       00000
+__Hbank13                                             bank13       00000
+__Hbank14                                             bank14       00000
+__Hbank15                                             bank15       00000
+__Hbank16                                             bank16       00000
+__Hbank17                                             bank17       00000
+__Hbank18                                             bank18       00000
+__Hbank19                                             bank19       00000
+__Hbank2                                              bank2        00000
+__Hbank20                                             bank20       00000
+__Hbank21                                             bank21       00000
+__Hbank22                                             bank22       00000
+__Hbank23                                             bank23       00000
+__Hbank24                                             bank24       00000
+__Hbank25                                             bank25       00000
+__Hbank26                                             bank26       00000
+__Hbank27                                             bank27       00000
+__Hbank28                                             bank28       00000
+__Hbank29                                             bank29       00000
+__Hbank3                                              bank3        00000
+__Hbank30                                             bank30       00000
+__Hbank31                                             bank31       00000
+__Hbank4                                              bank4        00000
+__Hbank5                                              bank5        00000
+__Hbank6                                              bank6        00000
+__Hbank7                                              bank7        00000
+__Hbank8                                              bank8        00000
+__Hbank9                                              bank9        00000
+__Hbigram                                             bigram       00000
+__HbssBANK0                                           bssBANK0     00000
+__HbssBANK1                                           bssBANK1     00000
+__HbssCOMMON                                          bssCOMMON    00000
+__Hcinit                                              cinit        00039
+__Hclrtext                                            clrtext      00000
+__Hcode                                               code         00000
+__Hcommon                                             common       00000
+__Hconfig                                             config       08009
+__HcstackBANK0                                        cstackBANK0  00000
+__HcstackCOMMON                                       cstackCOMMON 00000
+__HdataBANK0                                          dataBANK0    00000
+__Heeprom_data                                        eeprom_data  00000
+__Hend_init                                           end_init     0001B
+__Hfunctab                                            functab      00000
+__HidataBANK0                                         idataBANK0   00000
+__Hidloc                                              idloc        00000
+__Hinit                                               init         0001A
+__Hinittext                                           inittext     00000
+__Hintentry                                           intentry     0001A
+__Hmaintext                                           maintext     00000
+__Hpa_nodes0                                          pa_nodes0    00000
+__Hpowerup                                            powerup      00000
+__Hram                                                ram          00000
+__Hreset_vec                                          reset_vec    00001
+__Hsfr0                                               sfr0         00000
+__Hsfr1                                               sfr1         00000
+__Hsfr10                                              sfr10        00000
+__Hsfr11                                              sfr11        00000
+__Hsfr12                                              sfr12        00000
+__Hsfr13                                              sfr13        00000
+__Hsfr14                                              sfr14        00000
+__Hsfr15                                              sfr15        00000
+__Hsfr16                                              sfr16        00000
+__Hsfr17                                              sfr17        00000
+__Hsfr18                                              sfr18        00000
+__Hsfr19                                              sfr19        00000
+__Hsfr2                                               sfr2         00000
+__Hsfr20                                              sfr20        00000
+__Hsfr21                                              sfr21        00000
+__Hsfr22                                              sfr22        00000
+__Hsfr23                                              sfr23        00000
+__Hsfr24                                              sfr24        00000
+__Hsfr25                                              sfr25        00000
+__Hsfr26                                              sfr26        00000
+__Hsfr27                                              sfr27        00000
+__Hsfr28                                              sfr28        00000
+__Hsfr29                                              sfr29        00000
+__Hsfr3                                               sfr3         00000
+__Hsfr30                                              sfr30        00000
+__Hsfr31                                              sfr31        00000
+__Hsfr4                                               sfr4         00000
+__Hsfr5                                               sfr5         00000
+__Hsfr6                                               sfr6         00000
+__Hsfr7                                               sfr7         00000
+__Hsfr8                                               sfr8         00000
+__Hsfr9                                               sfr9         00000
+__Hspace_0                                            (abs)        08009
+__Hspace_1                                            (abs)        000D6
+__Hspace_2                                            (abs)        00000
+__Hspace_3                                            (abs)        00000
+__Hstack                                              stack        00000
+__Hstrings                                            strings      00000
+__Hstringtext1                                        stringtext1  00000
+__Hstringtext2                                        stringtext2  00000
+__Htext                                               text         00000
+__Labs1                                               abs1         00000
+__Lbank0                                              bank0        00000
+__Lbank1                                              bank1        00000
+__Lbank10                                             bank10       00000
+__Lbank11                                             bank11       00000
+__Lbank12                                             bank12       00000
+__Lbank13                                             bank13       00000
+__Lbank14                                             bank14       00000
+__Lbank15                                             bank15       00000
+__Lbank16                                             bank16       00000
+__Lbank17                                             bank17       00000
+__Lbank18                                             bank18       00000
+__Lbank19                                             bank19       00000
+__Lbank2                                              bank2        00000
+__Lbank20                                             bank20       00000
+__Lbank21                                             bank21       00000
+__Lbank22                                             bank22       00000
+__Lbank23                                             bank23       00000
+__Lbank24                                             bank24       00000
+__Lbank25                                             bank25       00000
+__Lbank26                                             bank26       00000
+__Lbank27                                             bank27       00000
+__Lbank28                                             bank28       00000
+__Lbank29                                             bank29       00000
+__Lbank3                                              bank3        00000
+__Lbank30                                             bank30       00000
+__Lbank31                                             bank31       00000
+__Lbank4                                              bank4        00000
+__Lbank5                                              bank5        00000
+__Lbank6                                              bank6        00000
+__Lbank7                                              bank7        00000
+__Lbank8                                              bank8        00000
+__Lbank9                                              bank9        00000
+__Lbigram                                             bigram       00000
+__LbssBANK0                                           bssBANK0     00000
+__LbssBANK1                                           bssBANK1     00000
+__LbssCOMMON                                          bssCOMMON    00000
+__Lcinit                                              cinit        0001B
+__Lclrtext                                            clrtext      00000
+__Lcode                                               code         00000
+__Lcommon                                             common       00000
+__Lconfig                                             config       08007
+__LcstackBANK0                                        cstackBANK0  00000
+__LcstackCOMMON                                       cstackCOMMON 00000
+__LdataBANK0                                          dataBANK0    00000
+__Leeprom_data                                        eeprom_data  00000
+__Lend_init                                           end_init     0001A
+__Lfunctab                                            functab      00000
+__LidataBANK0                                         idataBANK0   00000
+__Lidloc                                              idloc        00000
+__Linit                                               init         0001A
+__Linittext                                           inittext     00000
+__Lintentry                                           intentry     00004
+__Lmaintext                                           maintext     00000
+__Lpa_nodes0                                          pa_nodes0    00000
+__Lpowerup                                            powerup      00000
+__Lram                                                ram          00000
+__Lreset_vec                                          reset_vec    00000
+__Lsfr0                                               sfr0         00000
+__Lsfr1                                               sfr1         00000
+__Lsfr10                                              sfr10        00000
+__Lsfr11                                              sfr11        00000
+__Lsfr12                                              sfr12        00000
+__Lsfr13                                              sfr13        00000
+__Lsfr14                                              sfr14        00000
+__Lsfr15                                              sfr15        00000
+__Lsfr16                                              sfr16        00000
+__Lsfr17                                              sfr17        00000
+__Lsfr18                                              sfr18        00000
+__Lsfr19                                              sfr19        00000
+__Lsfr2                                               sfr2         00000
+__Lsfr20                                              sfr20        00000
+__Lsfr21                                              sfr21        00000
+__Lsfr22                                              sfr22        00000
+__Lsfr23                                              sfr23        00000
+__Lsfr24                                              sfr24        00000
+__Lsfr25                                              sfr25        00000
+__Lsfr26                                              sfr26        00000
+__Lsfr27                                              sfr27        00000
+__Lsfr28                                              sfr28        00000
+__Lsfr29                                              sfr29        00000
+__Lsfr3                                               sfr3         00000
+__Lsfr30                                              sfr30        00000
+__Lsfr31                                              sfr31        00000
+__Lsfr4                                               sfr4         00000
+__Lsfr5                                               sfr5         00000
+__Lsfr6                                               sfr6         00000
+__Lsfr7                                               sfr7         00000
+__Lsfr8                                               sfr8         00000
+__Lsfr9                                               sfr9         00000
+__Lspace_0                                            (abs)        00000
+__Lspace_1                                            (abs)        00000
+__Lspace_2                                            (abs)        00000
+__Lspace_3                                            (abs)        00000
+__Lstack                                              stack        00000
+__Lstrings                                            strings      00000
+__Lstringtext1                                        stringtext1  00000
+__Lstringtext2                                        stringtext2  00000
+__Ltext                                               text         00000
+__S0                                                  (abs)        08009
+__S1                                                  (abs)        000D6
+__S2                                                  (abs)        00000
+___bmul                                               text57       00731
+___bmul@multiplicand                                  cstackBANK0  00020
+___bmul@multiplier                                    cstackBANK0  00022
+___bmul@product                                       cstackBANK0  00021
+___int_sp                                             stack        00000
+___latbits                                            (abs)        00000
+___lwdiv                                              text13       004E8
+___lwdiv@counter                                      cstackBANK0  00026
+___lwdiv@dividend                                     cstackBANK0  00022
+___lwdiv@divisor                                      cstackBANK0  00020
+___lwdiv@quotient                                     cstackBANK0  00024
+___lwmod                                              text12       00578
+___lwmod@counter                                      cstackBANK0  0002B
+___lwmod@dividend                                     cstackBANK0  00029
+___lwmod@divisor                                      cstackBANK0  00027
+___sp                                                 stack        00000
+__end_ofPL50                                          text42       0036B
+__end_ofPL52                                          text44       0041D
+__end_ofPL54                                          text44       00430
+__end_ofPL56                                          text11       000DF
+__end_ofPL58                                          text36       00278
+__end_ofPL60                                          text11       000E7
+__end_ofPL62                                          text37       003B1
+__end_ofPL64                                          text36       0027E
+__end_ofPL66                                          text46       0018F
+__end_ofPL68                                          text11       000EE
+__end_ofPL70                                          text63       00206
+__end_ofPL72                                          text11       000F3
+__end_ofPL74                                          text19       006AF
+__end_ofPL76                                          text36       00286
+__end_ofPL78                                          text11       000F9
+__end_ofPL80                                          text25       00322
+__end_ofPL82                                          text56       00578
+__end_ofPL84                                          text11       000FE
+__end_ofPL86                                          text63       0020C
+__end_ofPL88                                          text11       00103
+__end_ofPL90                                          text11       00108
+__end_ofPL92                                          text33       00465
+__end_ofSensor_Scanfrequency_Evaluation@frequency_hop stringtext1  0079D
+__end_of_Button_Baseline_Get_helper                   text16       005EF
+__end_of_Button_Baseline_Initialize                   text43       004E8
+__end_of_Button_Baseline_Update                       text42       0032C
+__end_of_Button_DefaultCallback                       text40       007C7
+__end_of_Button_Deviation_Update                      text46       00188
+__end_of_Button_Reading_Update                        text44       00404
+__end_of_Button_Service                               text33       00460
+__end_of_Button_State_Initializing                    text37       003A6
+__end_of_Button_State_NotPressed                      text36       00271
+__end_of_Button_State_Pressed                         text38       00495
+__end_of_EUSART_Initialize                            text5        0069D
+__end_of_EUSART_Transmit_ISR                          text70       00665
+__end_of_EUSART_Write                                 text17       005B6
+__end_of_INTERRUPT_Manager                            intentry     0001A
+__end_of_MTOUCH_Button_Baseline_Get                   text15       006ED
+__end_of_MTOUCH_Button_Initialize                     text56       00572
+__end_of_MTOUCH_Button_InitializeAll                  text55       00623
+__end_of_MTOUCH_Button_Reading_Get                    text14       00678
+__end_of_MTOUCH_Button_ServiceAll                     text32       00767
+__end_of_MTOUCH_Button_SetNotPressedCallback          text60       007B1
+__end_of_MTOUCH_Button_SetPressedCallback             text59       007AC
+__end_of_MTOUCH_CVD_ScanA_0                           text68       00557
+__end_of_MTOUCH_CVD_ScanB_0                           text67       00532
+__end_of_MTOUCH_Initialize                            text48       007B9
+__end_of_MTOUCH_Sensor_Calibrate                      text58       007C8
+__end_of_MTOUCH_Sensor_Enable                         text54       00731
+__end_of_MTOUCH_Sensor_Initialize                     text52       005D3
+__end_of_MTOUCH_Sensor_InitializeAll                  text51       00770
+__end_of_MTOUCH_Sensor_NotifyInterruptOccurred        text69       007BD
+__end_of_MTOUCH_Sensor_RawSample_Get                  text45       0068B
+__end_of_MTOUCH_Sensor_SampleAll                      text8        0075E
+__end_of_MTOUCH_Sensor_Sampled_ResetAll               text50       006C1
+__end_of_MTOUCH_Sensor_Scan_Initialize                text49       00778
+__end_of_MTOUCH_Sensor_SetSampledCallback             text47       007A7
+__end_of_MTOUCH_Sensor_isCalibrated                   text35       007C6
+__end_of_MTOUCH_Sensor_wasSampled                     text34       00709
+__end_of_MTOUCH_Service_Mainloop                      text6        0077F
+__end_of_MTOUCH_Tick                                  text7        007C4
+__end_of_OSC_Initialize                               text4        00798
+__end_of_PIN_Initialize                               text3        00724
+__end_of_SYSTEM_Initialize                            text1        007B5
+__end_of_Sensor_Acq_ExecutePacket                     text26       002D6
+__end_of_Sensor_Acq_ExecuteScan                       text63       001FD
+__end_of_Sensor_Acquisition                           text20       003F6
+__end_of_Sensor_DefaultCallback                       text10       007C5
+__end_of_Sensor_RawSample_Update                      text19       006A7
+__end_of_Sensor_Sampled_Reset                         text53       00000
+__end_of_Sensor_Scanfrequency_Evaluation              text25       0031B
+__end_of_Sensor_Service                               text9        004C1
+__end_of_Sensor_isEnabled                             text24       00754
+__end_of_Sensor_setActive                             text23       00000
+__end_of_Sensor_setInactive                           text22       00000
+__end_of_Sensor_setSampled                            text18       00000
+__end_of_Sensor_setScanFunction                       text31       006D1
+__end_of_TMR2_ISR                                     text62       00786
+__end_of_TMR2_Initialize                              text2        006DF
+__end_of_TMR2_InterruptHandler_Default                text64       007C9
+__end_of_TMR2_SetInterruptHandler                     text30       007A2
+__end_of___bmul                                       text57       0073D
+__end_of___lwdiv                                      text13       0050D
+__end_of___lwmod                                      text12       00598
+__end_of__initialization                              cinit        00036
+__end_of_abs                                          text21       006FB
+__end_of_led_off                                      text41       007C3
+__end_of_led_on                                       text39       007C0
+__end_of_log_info                                     text11       000D6
+__end_of_main                                         maintext     0063A
+__end_of_mtouch_button_init                           stringtext2  00650
+__end_ofi1___bmul                                     text66       00749
+__end_ofi1_abs                                        text65       00717
+__end_oftmr2@TMR2_LoadPeriodRegister                  text29       00000
+__end_oftmr2@TMR2_StartTimer                          text28       00000
+__end_oftmr2@TMR2_StopTimer                           text27       00000
+__initialization                                      cinit        0001B
+__pbssBANK0                                           bssBANK0     00056
+__pbssBANK1                                           bssBANK1     000A0
+__pbssCOMMON                                          bssCOMMON    00078
+__pcstackBANK0                                        cstackBANK0  00020
+__pcstackCOMMON                                       cstackCOMMON 00070
+__pdataBANK0                                          dataBANK0    0003C
+__pidataBANK0                                         idataBANK0   005EF
+__pintentry                                           intentry     00004
+__pmaintext                                           maintext     00623
+__pstringtext1                                        stringtext1  00798
+__pstringtext2                                        stringtext2  0063A
+__pswtext1                                            swtext1      00003
+__pswtext2                                            swtext2      00001
+__ptext1                                              text1        007B1
+__ptext10                                             text10       007C4
+__ptext11                                             text11       00039
+__ptext12                                             text12       00578
+__ptext13                                             text13       004E8
+__ptext14                                             text14       00665
+__ptext15                                             text15       006DF
+__ptext16                                             text16       005D3
+__ptext17                                             text17       00598
+__ptext18                                             text18       00000
+__ptext19                                             text19       0069D
+__ptext2                                              text2        006D1
+__ptext20                                             text20       003B1
+__ptext21                                             text21       006ED
+__ptext22                                             text22       00000
+__ptext23                                             text23       00000
+__ptext24                                             text24       00749
+__ptext25                                             text25       002D6
+__ptext26                                             text26       00286
+__ptext27                                             text27       00000
+__ptext28                                             text28       00000
+__ptext29                                             text29       00000
+__ptext3                                              text3        00717
+__ptext30                                             text30       0079D
+__ptext31                                             text31       006C1
+__ptext32                                             text32       0075E
+__ptext33                                             text33       00430
+__ptext34                                             text34       006FB
+__ptext35                                             text35       007C5
+__ptext36                                             text36       0020C
+__ptext37                                             text37       0036B
+__ptext38                                             text38       00465
+__ptext39                                             text39       007BD
+__ptext4                                              text4        00792
+__ptext40                                             text40       007C6
+__ptext41                                             text41       007C0
+__ptext42                                             text42       00322
+__ptext43                                             text43       004C1
+__ptext44                                             text44       003F6
+__ptext45                                             text45       00678
+__ptext46                                             text46       00108
+__ptext47                                             text47       007A2
+__ptext48                                             text48       007B5
+__ptext49                                             text49       00770
+__ptext5                                              text5        0068B
+__ptext50                                             text50       006AF
+__ptext51                                             text51       00767
+__ptext52                                             text52       005B6
+__ptext53                                             text53       00000
+__ptext54                                             text54       00724
+__ptext55                                             text55       00609
+__ptext56                                             text56       00557
+__ptext57                                             text57       00731
+__ptext58                                             text58       007C7
+__ptext59                                             text59       007A7
+__ptext6                                              text6        00778
+__ptext60                                             text60       007AC
+__ptext62                                             text62       0077F
+__ptext63                                             text63       0018F
+__ptext64                                             text64       007C8
+__ptext65                                             text65       00709
+__ptext66                                             text66       0073D
+__ptext67                                             text67       0050D
+__ptext68                                             text68       00532
+__ptext69                                             text69       007B9
+__ptext7                                              text7        007C3
+__ptext70                                             text70       00650
+__ptext8                                              text8        00754
+__ptext9                                              text9        00495
+__size_of_Button_Baseline_Get_helper                  (abs)        00000
+__size_of_Button_Baseline_Initialize                  (abs)        00000
+__size_of_Button_Baseline_Update                      (abs)        00000
+__size_of_Button_DefaultCallback                      (abs)        00000
+__size_of_Button_Deviation_Update                     (abs)        00000
+__size_of_Button_Reading_Update                       (abs)        00000
+__size_of_Button_Service                              (abs)        00000
+__size_of_Button_State_Initializing                   (abs)        00000
+__size_of_Button_State_NotPressed                     (abs)        00000
+__size_of_Button_State_Pressed                        (abs)        00000
+__size_of_EUSART_Initialize                           (abs)        00000
+__size_of_EUSART_Transmit_ISR                         (abs)        00000
+__size_of_EUSART_Write                                (abs)        00000
+__size_of_INTERRUPT_Manager                           (abs)        00000
+__size_of_MTOUCH_Button_Baseline_Get                  (abs)        00000
+__size_of_MTOUCH_Button_Initialize                    (abs)        00000
+__size_of_MTOUCH_Button_InitializeAll                 (abs)        00000
+__size_of_MTOUCH_Button_Reading_Get                   (abs)        00000
+__size_of_MTOUCH_Button_ServiceAll                    (abs)        00000
+__size_of_MTOUCH_Button_SetNotPressedCallback         (abs)        00000
+__size_of_MTOUCH_Button_SetPressedCallback            (abs)        00000
+__size_of_MTOUCH_CVD_ScanA_0                          (abs)        00000
+__size_of_MTOUCH_CVD_ScanB_0                          (abs)        00000
+__size_of_MTOUCH_Initialize                           (abs)        00000
+__size_of_MTOUCH_Sensor_Calibrate                     (abs)        00000
+__size_of_MTOUCH_Sensor_Enable                        (abs)        00000
+__size_of_MTOUCH_Sensor_Initialize                    (abs)        00000
+__size_of_MTOUCH_Sensor_InitializeAll                 (abs)        00000
+__size_of_MTOUCH_Sensor_NotifyInterruptOccurred       (abs)        00000
+__size_of_MTOUCH_Sensor_RawSample_Get                 (abs)        00000
+__size_of_MTOUCH_Sensor_SampleAll                     (abs)        00000
+__size_of_MTOUCH_Sensor_Sampled_ResetAll              (abs)        00000
+__size_of_MTOUCH_Sensor_Scan_Initialize               (abs)        00000
+__size_of_MTOUCH_Sensor_SetSampledCallback            (abs)        00000
+__size_of_MTOUCH_Sensor_isCalibrated                  (abs)        00000
+__size_of_MTOUCH_Sensor_wasSampled                    (abs)        00000
+__size_of_MTOUCH_Service_Mainloop                     (abs)        00000
+__size_of_MTOUCH_Tick                                 (abs)        00000
+__size_of_OSC_Initialize                              (abs)        00000
+__size_of_PIN_Initialize                              (abs)        00000
+__size_of_SYSTEM_Initialize                           (abs)        00000
+__size_of_Sensor_Acq_ExecutePacket                    (abs)        00000
+__size_of_Sensor_Acq_ExecuteScan                      (abs)        00000
+__size_of_Sensor_Acquisition                          (abs)        00000
+__size_of_Sensor_DefaultCallback                      (abs)        00000
+__size_of_Sensor_RawSample_Update                     (abs)        00000
+__size_of_Sensor_Sampled_Reset                        (abs)        00000
+__size_of_Sensor_Scanfrequency_Evaluation             (abs)        00000
+__size_of_Sensor_Service                              (abs)        00000
+__size_of_Sensor_isEnabled                            (abs)        00000
+__size_of_Sensor_setActive                            (abs)        00000
+__size_of_Sensor_setInactive                          (abs)        00000
+__size_of_Sensor_setSampled                           (abs)        00000
+__size_of_Sensor_setScanFunction                      (abs)        00000
+__size_of_TMR2_ISR                                    (abs)        00000
+__size_of_TMR2_Initialize                             (abs)        00000
+__size_of_TMR2_InterruptHandler_Default               (abs)        00000
+__size_of_TMR2_SetInterruptHandler                    (abs)        00000
+__size_of___bmul                                      (abs)        00000
+__size_of___lwdiv                                     (abs)        00000
+__size_of___lwmod                                     (abs)        00000
+__size_of_abs                                         (abs)        00000
+__size_of_led_off                                     (abs)        00000
+__size_of_led_on                                      (abs)        00000
+__size_of_log_info                                    (abs)        00000
+__size_of_main                                        (abs)        00000
+__size_ofi1___bmul                                    (abs)        00000
+__size_ofi1_abs                                       (abs)        00000
+__size_oftmr2@TMR2_LoadPeriodRegister                 (abs)        00000
+__size_oftmr2@TMR2_StartTimer                         (abs)        00000
+__size_oftmr2@TMR2_StopTimer                          (abs)        00000
+_abs                                                  text21       006ED
+_callback_notPressed                                  dataBANK0    00042
+_callback_pressed                                     dataBANK0    00044
+_callback_sampled                                     dataBANK0    0004A
+_currentScannSensor                                   bssCOMMON    00079
+_inlined$_Sensor_Sampled_Reset                        (abs)        00001
+_inlined$_Sensor_setActive                            (abs)        00001
+_inlined$_Sensor_setInactive                          (abs)        00001
+_inlined$_Sensor_setSampled                           (abs)        00001
+_inlined$tmr2@TMR2_LoadPeriodRegister                 (abs)        00001
+_inlined$tmr2@TMR2_StartTimer                         (abs)        00001
+_inlined$tmr2@TMR2_StopTimer                          (abs)        00001
+_led_off                                              text41       007C0
+_led_on                                               text39       007BD
+_log_info                                             text11       00039
+_main                                                 maintext     00623
+_mtouch_button                                        bssBANK1     000C0
+_mtouch_button_init                                   stringtext2  0063A
+_mtouch_sensor                                        dataBANK0    0004D
+_packet_counter                                       bssCOMMON    00078
+_packet_noise                                         bssBANK0     0005A
+_packet_sample                                        bssBANK0     0005C
+_sample_period                                        dataBANK0    0004C
+_sensor_globalFlags                                   bssBANK0     00060
+_tmr2_isr_handler                                     bssBANK0     0005E
+_txBuf                                                bssBANK1     000A0
+_txHead                                               bssCOMMON    0007A
+_txRemain                                             bssCOMMON    0007B
+_txTail                                               bssCOMMON    0007C
+abs@a                                                 cstackBANK0  00020
+btemp                                                 (abs)        0007E
+clear_ram0                                            clrtext      0078C
+end_of_initialization                                 cinit        00036
+i1___bmul                                             text66       0073D
+i1___bmul@multiplicand                                cstackCOMMON 00070
+i1___bmul@multiplier                                  cstackCOMMON 00071
+i1___bmul@product                                     cstackCOMMON 00072
+i1_abs                                                text65       00709
+i1abs@a                                               cstackCOMMON 00070
+init_ram                                              inittext     00786
+int$flags                                             (abs)        0007E
+intlevel0                                             functab      00000
+intlevel1                                             functab      00000
+intlevel2                                             functab      00000
+intlevel3                                             functab      00000
+intlevel4                                             functab      00000
+intlevel5                                             functab      00000
+log_info@baseline                                     cstackBANK0  00031
+log_info@button                                       cstackBANK0  0002E
+log_info@reading                                      cstackBANK0  0002F
+log_info@value                                        cstackBANK0  00033
+reset_vec                                             reset_vec    00000
+stackhi                                               (abs)        020EF
+stacklo                                               (abs)        02086
+start                                                 init         0001A
+start_initialization                                  cinit        0001B
+tmr2@TMR2_LoadPeriodRegister                          text29       00000
+tmr2@TMR2_LoadPeriodRegister@period                   cstackBANK0  00020
+tmr2@TMR2_StartTimer                                  text28       00000
+tmr2@TMR2_StopTimer                                   text27       00000
+wtemp0                                                (abs)        0007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 140 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels required when called:   11
+ This function calls:
+		_MTOUCH_Button_SetNotPressedCallback
+		_MTOUCH_Button_SetPressedCallback
+		_MTOUCH_Initialize
+		_MTOUCH_Sensor_SetSampledCallback
+		_MTOUCH_Service_Mainloop
+		_SYSTEM_Initialize
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _SYSTEM_Initialize *****************
+ Defined at:
+		line 68 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_EUSART_Initialize
+		_OSC_Initialize
+		_PIN_Initialize
+		_TMR2_Initialize
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _TMR2_Initialize *****************
+ Defined at:
+		line 9 in file "driver/tmr2.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _PIN_Initialize *****************
+ Defined at:
+		line 3 in file "driver/pin.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _OSC_Initialize *****************
+ Defined at:
+		line 6 in file "driver/osc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART_Initialize *****************
+ Defined at:
+		line 15 in file "driver/eusart.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Service_Mainloop *****************
+ Defined at:
+		line 25 in file "mtouch/mtouch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:   10
+ This function calls:
+		_MTOUCH_Button_ServiceAll
+		_MTOUCH_Sensor_SampleAll
+		_MTOUCH_Sensor_Sampled_ResetAll
+		_MTOUCH_Tick
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Tick *****************
+ Defined at:
+		line 39 in file "mtouch/mtouch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_MTOUCH_Service_Mainloop
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_SampleAll *****************
+ Defined at:
+		line 157 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  sensor          1   27[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_Sensor_Service
+ This function is called by:
+		_MTOUCH_Service_Mainloop
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Service *****************
+ Defined at:
+		line 171 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  name            1   24[BANK0 ] enum E30
+  sensor          1   26[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+  error           1   25[BANK0 ] enum E32
+ Return value:  Size  Location     Type
+                  1    wreg      enum E32
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       3       0       0
+      Temps:          0       0       0       0
+      Totals:         0       3       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_Sensor_Acquisition
+		_Sensor_DefaultCallback
+		_Sensor_RawSample_Update
+		_Sensor_setSampled
+		___bmul
+		_log_info
+ This function is called by:
+		_MTOUCH_Sensor_SampleAll
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_DefaultCallback *****************
+ Defined at:
+		line 406 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1   14[BANK0 ] enum E30
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _log_info *****************
+ Defined at:
+		line 86 in file "main.c"
+ Parameters:    Size  Location     Type
+  button          1   14[BANK0 ] enum E3778
+ Auto vars:     Size  Location     Type
+  value           2   19[BANK0 ] unsigned int 
+  baseline        2   17[BANK0 ] unsigned int 
+  reading         2   15[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       6       0       0
+      Temps:          0       0       0       0
+      Totals:         0       7       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_EUSART_Write
+		_MTOUCH_Button_Baseline_Get
+		_MTOUCH_Button_Reading_Get
+		_MTOUCH_Sensor_RawSample_Get
+		___lwdiv
+		___lwmod
+ This function is called by:
+		_main
+		_Sensor_Service
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwmod *****************
+ Defined at:
+		line 6 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    7[BANK0 ] unsigned int 
+  dividend        2    9[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  counter         1   11[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    7[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       5       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 6 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] unsigned int 
+  dividend        2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2    4[BANK0 ] unsigned int 
+  counter         1    6[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       3       0       0
+      Temps:          0       0       0       0
+      Totals:         0       7       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_Reading_Get *****************
+ Defined at:
+		line 288 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E3654
+ Auto vars:     Size  Location     Type
+  name            1    6[BANK0 ] enum E3654
+ Return value:  Size  Location     Type
+                  2    3[BANK0 ] unsigned int 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       3       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___bmul
+ This function is called by:
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_Baseline_Get *****************
+ Defined at:
+		line 324 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E3654
+ Auto vars:     Size  Location     Type
+  name            1   13[BANK0 ] enum E3654
+ Return value:  Size  Location     Type
+                  2   10[BANK0 ] unsigned int 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       3       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_Button_Baseline_Get_helper
+ This function is called by:
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Baseline_Get_helper *****************
+ Defined at:
+		line 331 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E3654
+ Auto vars:     Size  Location     Type
+  name            1    9[BANK0 ] enum E3654
+ Return value:  Size  Location     Type
+                  2    3[BANK0 ] unsigned int 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       1       0       0
+      Temps:          0       4       0       0
+      Totals:         0       7       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___bmul
+ This function is called by:
+		_MTOUCH_Button_Baseline_Get
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART_Write *****************
+ Defined at:
+		line 31 in file "driver/eusart.c"
+ Parameters:    Size  Location     Type
+  byte            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  byte            1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_setSampled *****************
+ Defined at:
+		line 509 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_RawSample_Update *****************
+ Defined at:
+		line 391 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Acquisition *****************
+ Defined at:
+		line 205 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1   23[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+  retry           1   22[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      enum E32
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       2       0       0
+      Temps:          0       4       0       0
+      Totals:         0       6       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_Sensor_Acq_ExecutePacket
+		_Sensor_Scanfrequency_Evaluation
+		_Sensor_isEnabled
+		_Sensor_setActive
+		_Sensor_setInactive
+		_abs
+ This function is called by:
+		_Sensor_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _abs *****************
+ Defined at:
+		line 4 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\abs.c"
+ Parameters:    Size  Location     Type
+  a               2    0[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       0       0       0
+      Temps:          0       2       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acquisition
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_setInactive *****************
+ Defined at:
+		line 465 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acquisition
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_setActive *****************
+ Defined at:
+		line 461 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acquisition
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_isEnabled *****************
+ Defined at:
+		line 447 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acquisition
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Scanfrequency_Evaluation *****************
+ Defined at:
+		line 336 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1   14[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+  best_packet_    2   12[BANK0 ] unsigned int 
+  packet_noise    2   10[BANK0 ] unsigned int 
+  i               1   17[BANK0 ] unsigned char 
+  retry           1   16[BANK0 ] unsigned char 
+  best_sample_    1   15[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      enum E32
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       8       0       0
+      Temps:          0       2       0       0
+      Totals:         0      10       0       0
+Total ram usage:       10 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_Sensor_Acq_ExecutePacket
+ This function is called by:
+		_Sensor_Acquisition
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Acq_ExecutePacket *****************
+ Defined at:
+		line 234 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    7[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+  error           1    6[BANK0 ] enum E32
+  ADCON2_temp     1    5[BANK0 ] unsigned char 
+  ADCON1_temp     1    4[BANK0 ] unsigned char 
+  ADCON0_temp     1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      enum E32
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       5       0       0
+      Temps:          0       1       0       0
+      Totals:         0       6       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_MTOUCH_Sensor_Scan_Initialize
+		_Sensor_setScanFunction
+		_TMR2_SetInterruptHandler
+		tmr2@TMR2_LoadPeriodRegister
+		tmr2@TMR2_StartTimer
+		tmr2@TMR2_StopTimer
+ This function is called by:
+		_Sensor_Acquisition
+		_Sensor_Scanfrequency_Evaluation
+ This function uses a non-reentrant model
+
+
+ *************** function tmr2@TMR2_StopTimer *****************
+ Defined at:
+		line 52 in file "mtouch/../driver/tmr2.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+ This function uses a non-reentrant model
+
+
+ *************** function tmr2@TMR2_StartTimer *****************
+ Defined at:
+		line 48 in file "mtouch/../driver/tmr2.h"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+ This function uses a non-reentrant model
+
+
+ *************** function tmr2@TMR2_LoadPeriodRegister *****************
+ Defined at:
+		line 63 in file "mtouch/../driver/tmr2.h"
+ Parameters:    Size  Location     Type
+  period          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  period          1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+ This function uses a non-reentrant model
+
+
+ *************** function _TMR2_SetInterruptHandler *****************
+ Defined at:
+		line 26 in file "driver/tmr2.c"
+ Parameters:    Size  Location     Type
+  handler         2    0[BANK0 ] PTR FTN()void 
+		 -> Sensor_Acq_ExecuteScan(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_setScanFunction *****************
+ Defined at:
+		line 419 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_ServiceAll *****************
+ Defined at:
+		line 116 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  button          1   20[BANK0 ] enum E3654
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    9
+ This function calls:
+		_Button_Service
+ This function is called by:
+		_MTOUCH_Service_Mainloop
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Service *****************
+ Defined at:
+		line 123 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E3654
+ Auto vars:     Size  Location     Type
+  name            1   18[BANK0 ] enum E3654
+  button          1   19[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       2       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_Button_Deviation_Update
+		_Button_Reading_Update
+		_Button_State_Initializing
+		_Button_State_NotPressed
+		_Button_State_Pressed
+		_MTOUCH_Button_Initialize
+		_MTOUCH_Sensor_isCalibrated
+		_MTOUCH_Sensor_wasSampled
+		___bmul
+ This function is called by:
+		_MTOUCH_Button_ServiceAll
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_wasSampled *****************
+ Defined at:
+		line 498 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  sensor          1    3[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___bmul
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_isCalibrated *****************
+ Defined at:
+		line 475 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  sensor          1    0[COMMON] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_State_NotPressed *****************
+ Defined at:
+		line 154 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1   12[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       5       0       0
+      Totals:         0       6       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_Button_Baseline_Update
+		_Button_DefaultCallback
+		_MTOUCH_Button_Initialize
+		_led_on
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_State_Initializing *****************
+ Defined at:
+		line 137 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1   12[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       4       0       0
+      Totals:         0       5       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_Button_Baseline_Initialize
+		_Button_Baseline_Update
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_State_Pressed *****************
+ Defined at:
+		line 180 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1   12[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       5       0       0
+      Totals:         0       6       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Button_DefaultCallback
+		_led_off
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _led_on *****************
+ Defined at:
+		line 113 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_Button_State_NotPressed
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_DefaultCallback *****************
+ Defined at:
+		line 340 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1    0[BANK0 ] enum E3654
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Button_State_NotPressed
+		_Button_State_Pressed
+ This function uses a non-reentrant model
+
+
+ *************** function _led_off *****************
+ Defined at:
+		line 118 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_Button_State_Pressed
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Baseline_Update *****************
+ Defined at:
+		line 312 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1    wreg     PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+  button          1    6[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       6       0       0
+      Totals:         0       7       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Button_State_Initializing
+		_Button_State_NotPressed
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Baseline_Initialize *****************
+ Defined at:
+		line 307 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1    wreg     PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+  button          1   11[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       4       0       0
+      Totals:         0       5       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_MTOUCH_Sensor_RawSample_Get
+ This function is called by:
+		_Button_State_Initializing
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Reading_Update *****************
+ Defined at:
+		line 295 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1    wreg     PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+  button          1    9[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       2       0       0
+      Totals:         0       3       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_MTOUCH_Sensor_RawSample_Get
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_RawSample_Get *****************
+ Defined at:
+		line 384 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  name            1    6[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  2    3[BANK0 ] unsigned int 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       3       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___bmul
+ This function is called by:
+		_Button_Reading_Update
+		_Button_Baseline_Initialize
+		_log_info
+ This function uses a non-reentrant model
+
+
+ *************** function _Button_Deviation_Update *****************
+ Defined at:
+		line 245 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  button          1    wreg     PTR struct .
+		 -> mtouch_button(22), 
+ Auto vars:     Size  Location     Type
+  button          1   12[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+  deviation       4    8[BANK0 ] long 
+  baseline        4    4[BANK0 ] long 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       9       0       0
+      Temps:          0       4       0       0
+      Totals:         0      13       0       0
+Total ram usage:       13 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Button_Service
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_SetSampledCallback *****************
+ Defined at:
+		line 409 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  callback        2    0[BANK0 ] PTR FTN(enum E30,)void 
+		 -> log_info(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Initialize *****************
+ Defined at:
+		line 12 in file "mtouch/mtouch.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    8
+ This function calls:
+		_MTOUCH_Button_InitializeAll
+		_MTOUCH_Sensor_InitializeAll
+		_MTOUCH_Sensor_Sampled_ResetAll
+		_MTOUCH_Sensor_Scan_Initialize
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_Scan_Initialize *****************
+ Defined at:
+		line 143 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+		_MTOUCH_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_Sampled_ResetAll *****************
+ Defined at:
+		line 491 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  sensor          1    2[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       1       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Sensor_Sampled_Reset
+ This function is called by:
+		_MTOUCH_Initialize
+		_MTOUCH_Service_Mainloop
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_InitializeAll *****************
+ Defined at:
+		line 130 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  sensor          1    5[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_MTOUCH_Sensor_Initialize
+ This function is called by:
+		_MTOUCH_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_Initialize *****************
+ Defined at:
+		line 109 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  sensor          1    4[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      enum E32
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_MTOUCH_Sensor_Enable
+		_Sensor_Sampled_Reset
+		___bmul
+ This function is called by:
+		_MTOUCH_Sensor_InitializeAll
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Sampled_Reset *****************
+ Defined at:
+		line 505 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     PTR struct .
+		 -> mtouch_sensor(9), 
+ Auto vars:     Size  Location     Type
+  sensor          1    0[BANK0 ] PTR struct .
+		 -> mtouch_sensor(9), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_MTOUCH_Sensor_Initialize
+		_MTOUCH_Sensor_Sampled_ResetAll
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_Enable *****************
+ Defined at:
+		line 435 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  sensor          1    3[BANK0 ] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       0       0       0
+      Totals:         0       1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___bmul
+ This function is called by:
+		_MTOUCH_Sensor_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_InitializeAll *****************
+ Defined at:
+		line 100 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  button          1    6[BANK0 ] enum E3654
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       1       0       0
+      Temps:          0       1       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_MTOUCH_Button_Initialize
+ This function is called by:
+		_MTOUCH_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_Initialize *****************
+ Defined at:
+		line 89 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  name            1    wreg     enum E3654
+ Auto vars:     Size  Location     Type
+  name            1    3[BANK0 ] enum E3654
+  button          1    4[BANK0 ] PTR struct .
+		 -> mtouch_button(22), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       2       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_MTOUCH_Sensor_Calibrate
+		___bmul
+ This function is called by:
+		_MTOUCH_Button_InitializeAll
+		_Button_Service
+		_Button_State_NotPressed
+ This function uses a non-reentrant model
+
+
+ *************** function ___bmul *****************
+ Defined at:
+		line 4 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c"
+ Parameters:    Size  Location     Type
+  multiplier      1    wreg     unsigned char 
+  multiplicand    1    0[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  multiplier      1    2[BANK0 ] unsigned char 
+  product         1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       1       0       0
+      Locals:         0       2       0       0
+      Temps:          0       0       0       0
+      Totals:         0       3       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_MTOUCH_Sensor_Initialize
+		_Sensor_Service
+		_Sensor_Acq_ExecuteScan
+		_MTOUCH_Sensor_RawSample_Get
+		_MTOUCH_Sensor_Enable
+		_MTOUCH_Sensor_wasSampled
+		_MTOUCH_Button_Initialize
+		_Button_Service
+		_MTOUCH_Button_Reading_Get
+		_Button_Baseline_Get_helper
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_Calibrate *****************
+ Defined at:
+		line 480 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+  sensor          1    wreg     enum E30
+ Auto vars:     Size  Location     Type
+  sensor          1    0[COMMON] enum E30
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_MTOUCH_Button_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_SetPressedCallback *****************
+ Defined at:
+		line 343 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  callback        2    0[BANK0 ] PTR FTN(enum E3654,)void
+		 -> led_on(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Button_SetNotPressedCallback *****************
+ Defined at:
+		line 347 in file "mtouch/mtouch_button.c"
+ Parameters:    Size  Location     Type
+  callback        2    0[BANK0 ] PTR FTN(enum E3654,)void
+		 -> led_off(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       2       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _INTERRUPT_Manager *****************
+ Defined at:
+		line 75 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_EUSART_Transmit_ISR
+		_MTOUCH_Sensor_NotifyInterruptOccurred
+		_TMR2_ISR
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function _TMR2_ISR *****************
+ Defined at:
+		line 18 in file "driver/tmr2.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Absolute function
+		_Sensor_Acq_ExecuteScan
+		_TMR2_InterruptHandler_Default
+ This function is called by:
+		_INTERRUPT_Manager
+ This function uses a non-reentrant model
+
+
+ *************** function _Sensor_Acq_ExecuteScan *****************
+ Defined at:
+		line 293 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  result          2    6[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, fsr1l, fsr1h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         2       0       0       0
+      Temps:          2       0       0       0
+      Totals:         4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_MTOUCH_CVD_ScanA_0
+		_MTOUCH_CVD_ScanB_0
+		i1___bmul
+		i1_abs
+ This function is called by:
+		_Sensor_Acq_ExecutePacket
+		_TMR2_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function _TMR2_InterruptHandler_Default *****************
+ Defined at:
+		line 23 in file "driver/tmr2.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_TMR2_Initialize
+		_TMR2_ISR
+ This function uses a non-reentrant model
+
+
+ *************** function i1_abs *****************
+ Defined at:
+		line 4 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\abs.c"
+ Parameters:    Size  Location     Type
+  a               2    0[COMMON] int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         2       0       0       0
+      Locals:         0       0       0       0
+      Temps:          2       0       0       0
+      Totals:         4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecuteScan
+ This function uses a non-reentrant model
+
+
+ *************** function i1___bmul *****************
+ Defined at:
+		line 4 in file "D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c"
+ Parameters:    Size  Location     Type
+  multiplier      1    wreg     unsigned char 
+  multiplicand    1    0[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  multiplier      1    1[COMMON] unsigned char 
+  __bmul          1    2[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         1       0       0       0
+      Locals:         2       0       0       0
+      Temps:          0       0       0       0
+      Totals:         3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecuteScan
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_CVD_ScanB_0 *****************
+ Defined at:
+		line 93 in file "mtouch/mtouch_sensor_scan.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecuteScan
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_CVD_ScanA_0 *****************
+ Defined at:
+		line 29 in file "mtouch/mtouch_sensor_scan.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Sensor_Acq_ExecuteScan
+ This function uses a non-reentrant model
+
+
+ *************** function _MTOUCH_Sensor_NotifyInterruptOccurred *****************
+ Defined at:
+		line 195 in file "mtouch/mtouch_sensor.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_INTERRUPT_Manager
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART_Transmit_ISR *****************
+ Defined at:
+		line 53 in file "driver/eusart.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_INTERRUPT_Manager
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+driver/eusart.c
+		_EUSART_Write  		CODE           	0598	0000	31
+		_EUSART_Transmit_ISR		CODE           	0650	0000	22
+		_EUSART_Initialize		CODE           	068B	0000	19
+
+driver/eusart.c estimated size: 72
+
+driver/pin.c
+		_PIN_Initialize		CODE           	0717	0000	14
+
+driver/pin.c estimated size: 14
+
+driver/osc.c
+		_OSC_Initialize		CODE           	0792	0000	7
+
+driver/osc.c estimated size: 7
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c
+		___lwmod       		CODE           	0578	0000	33
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\lwmod.c estimated size: 33
+
+mtouch/../driver/tmr2.h
+
+mtouch/../driver/tmr2.h estimated size: 0
+
+driver/tmr2.c
+		_TMR2_ISR      		CODE           	077F	0000	8
+		_TMR2_Initialize		CODE           	06D1	0000	15
+		_TMR2_SetInterruptHandler		CODE           	079D	0000	6
+		_TMR2_InterruptHandler_Default		CODE           	07C8	0000	2
+
+driver/tmr2.c estimated size: 31
+
+shared
+		PL50           		CODE           	032C	0000	64
+		PL60           		CODE           	00DF	0000	9
+		PL70           		CODE           	01FD	0000	10
+		i1_abs         		CODE           	0709	0000	15
+		PL80           		CODE           	031B	0000	8
+		Sensor_Scanfrequency_Evaluation@frequency_hop		STRCODE        	0798	0000	6
+		PL52           		CODE           	0404	0000	26
+		PL90           		CODE           	0103	0000	6
+		PL62           		CODE           	03A6	0000	12
+		PL72           		CODE           	00EE	0000	6
+		tmr2@TMR2_StartTimer		CODE           	0000	0000	1
+		PL82           		CODE           	0572	0000	7
+		PL54           		CODE           	041D	0000	20
+		PL92           		CODE           	0460	0000	6
+		PL64           		CODE           	0278	0000	7
+		PL74           		CODE           	06A7	0000	9
+		PL84           		CODE           	00F9	0000	6
+		PL56           		CODE           	00D6	0000	10
+		PL66           		CODE           	0188	0000	8
+		PL76           		CODE           	027E	0000	9
+		PL86           		CODE           	0206	0000	7
+		PL58           		CODE           	0271	0000	8
+		PL68           		CODE           	00E7	0000	8
+		PL78           		CODE           	00F3	0000	7
+		PL88           		CODE           	00FE	0000	6
+		tmr2@TMR2_StopTimer		CODE           	0000	0000	1
+		__initialization		CODE           	001B	0000	28
+		_mtouch_button_init		STRCODE        	063A	0000	23
+		i1___bmul      		CODE           	073D	0000	13
+		tmr2@TMR2_LoadPeriodRegister		CODE           	0000	0000	1
+
+shared estimated size: 347
+
+mtouch/mtouch.c
+		_MTOUCH_Tick   		CODE           	07C3	0000	2
+		_MTOUCH_Initialize		CODE           	07B5	0000	5
+		_MTOUCH_Service_Mainloop		CODE           	0778	0000	8
+
+mtouch/mtouch.c estimated size: 15
+
+mtouch/mtouch_sensor_scan.c
+		_MTOUCH_CVD_ScanA_0		CODE           	0532	0000	38
+		_MTOUCH_CVD_ScanB_0		CODE           	050D	0000	38
+
+mtouch/mtouch_sensor_scan.c estimated size: 76
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c
+		___lwdiv       		CODE           	04E8	0000	38
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\lwdiv.c estimated size: 38
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c
+		___bmul        		CODE           	0731	0000	13
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\Umul8.c estimated size: 13
+
+mtouch/mtouch_sensor.c
+		_Sensor_Acq_ExecutePacket		CODE           	0286	0000	81
+		_Sensor_Acquisition		CODE           	03B1	0000	70
+		_MTOUCH_Sensor_NotifyInterruptOccurred		CODE           	07B9	0000	5
+		_MTOUCH_Sensor_Initialize		CODE           	05B6	0000	30
+		_Sensor_Sampled_Reset		CODE           	0000	0000	1
+		_MTOUCH_Sensor_InitializeAll		CODE           	0767	0000	10
+		_Sensor_DefaultCallback		CODE           	07C4	0000	2
+		_Sensor_isEnabled		CODE           	0749	0000	12
+		_MTOUCH_Sensor_isCalibrated		CODE           	07C5	0000	2
+		_MTOUCH_Sensor_Calibrate		CODE           	07C7	0000	2
+		_MTOUCH_Sensor_Sampled_ResetAll		CODE           	06AF	0000	19
+		_Sensor_setActive		CODE           	0000	0000	1
+		_Sensor_Scanfrequency_Evaluation		CODE           	02D6	0000	70
+		_MTOUCH_Sensor_Enable		CODE           	0724	0000	14
+		_Sensor_Acq_ExecuteScan		CODE           	018F	0000	111
+		_Sensor_setSampled		CODE           	0000	0000	1
+		_MTOUCH_Sensor_RawSample_Get		CODE           	0678	0000	20
+		_MTOUCH_Sensor_SampleAll		CODE           	0754	0000	11
+		_MTOUCH_Sensor_wasSampled		CODE           	06FB	0000	15
+		_MTOUCH_Sensor_SetSampledCallback		CODE           	07A2	0000	6
+		_Sensor_Service		CODE           	0495	0000	45
+		_Sensor_setScanFunction		CODE           	06C1	0000	17
+		_MTOUCH_Sensor_Scan_Initialize		CODE           	0770	0000	9
+		_Sensor_RawSample_Update		CODE           	069D	0000	11
+		_Sensor_setInactive		CODE           	0000	0000	1
+
+mtouch/mtouch_sensor.c estimated size: 566
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\abs.c
+		_abs           		CODE           	06ED	0000	15
+
+D:\Program Files\Microchip\xc8\v1.45\sources\common\abs.c estimated size: 15
+
+mtouch/mtouch_button.c
+		_Button_Deviation_Update		CODE           	0108	0000	129
+		_MTOUCH_Button_SetNotPressedCallback		CODE           	07AC	0000	6
+		_MTOUCH_Button_Baseline_Get		CODE           	06DF	0000	15
+		_MTOUCH_Button_Initialize		CODE           	0557	0000	28
+		_MTOUCH_Button_InitializeAll		CODE           	0609	0000	27
+		_Button_Baseline_Update		CODE           	0322	0000	11
+		_Button_State_Pressed		CODE           	0465	0000	49
+		_Button_Reading_Update		CODE           	03F6	0000	15
+		_Button_DefaultCallback		CODE           	07C6	0000	2
+		_MTOUCH_Button_Reading_Get		CODE           	0665	0000	20
+		_Button_State_NotPressed		CODE           	020C	0000	102
+		_MTOUCH_Button_SetPressedCallback		CODE           	07A7	0000	6
+		_Button_Baseline_Get_helper		CODE           	05D3	0000	29
+		_Button_Service		CODE           	0430	0000	49
+		_Button_State_Initializing		CODE           	036B	0000	60
+		_MTOUCH_Button_ServiceAll		CODE           	075E	0000	10
+		_Button_Baseline_Initialize		CODE           	04C1	0000	40
+
+mtouch/mtouch_button.c estimated size: 598
+
+main.c
+		_INTERRUPT_Manager		CODE           	0004	0000	23
+		_led_off       		CODE           	07C0	0000	4
+		_log_info      		CODE           	0039	0000	158
+		_main          		CODE           	0623	0000	24
+		_SYSTEM_Initialize		CODE           	07B1	0000	5
+		_led_on        		CODE           	07BD	0000	4
+
+main.c estimated size: 218
+
